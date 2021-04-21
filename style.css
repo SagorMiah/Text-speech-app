@@ -1,0 +1,59 @@
+body {
+    font-family: arial;
+    background: purple;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.speech {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 26vh;
+    background: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+.speech select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0px;
+    border: 1px solid #e91e63;
+    outline: none;
+    border-radius: 5px;
+}
+
+.speech input {
+    width: 97.4%;
+    margin: 10px 0px;
+    padding: 10px 7px;
+    outline: none;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+}
+
+.speech button {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 13px;
+    cursor: pointer;
+    background: #e91e63;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.speech h1 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.speech label {
+    margin-bottom: -3px;
+    display: block;
+    margin-top: 11px;
+    font-size: 15px;
+    color: #656565;
+}
